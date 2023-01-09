@@ -77,12 +77,12 @@ xaringanExtra::use_search(show_icon = TRUE)
 
 ## **Pendahuluan**
 
-### Hubungan Antara 2 Peubah atau Lebih
+#### Hubungan Antara 2 Peubah atau Lebih
 
 | PEUBAH    | KASUS   | PENGUMPULAN DATA    | JENIS HUBUNGANNYA |
 |:--        |:--      | :--                 |:--                |
-|1. Dosis Pupuk <br> 2. Banyaknya padi yang dihasilkan | Diduga dosis pupuk mempengaruhi banyaknya padi yang dihasilkan/ha | Dosis pupuk ditentukan dahulu, faktor-faktor lain yg mempengaruhi banyaknya padi dikendalikan sehingga pengaruhnya konstan, kemudian diamati banyaknya padi yang dihasilkan | Perubahan banyaknya padi yg dihasilkan/ha dipengaruhi oleh perubahan dosis pupuk $\rightarrow$ HUB SEBAB AKIBAT |
-|1. Tinggi badan <br> 2. Berat badan | Diduga tinggi badan dan berat badan memiliki hubungan | Dimulai dengan mengamati tinggi badan dahulu, disusul mengamati peubah yang dianggap relevan (berat badan), atau sebaliknya.| Pengamatan thdp kedua peubah dilakukan secara bersamaan. Sulit untuk mengatakan bahwa peru-bahan satu peubah disebabkan oleh perubahan peubah lainnya <br> $\rightarrow$ bukan HUB SEBAB AKIBAT Ingin diketahui kekuatan dan arah hubungannya|
+|1. **.red[Dosis Pupuk]** <br> 2. **.green[Banyaknya padi yang dihasilkan]** | Diduga dosis pupuk mempengaruhi banyaknya padi yang dihasilkan/ha | Dosis pupuk ditentukan dahulu, faktor-faktor lain yg mempengaruhi banyaknya padi dikendalikan sehingga pengaruhnya konstan, kemudian diamati banyaknya padi yang dihasilkan | Perubahan banyaknya padi yg dihasilkan/ha dipengaruhi oleh perubahan dosis pupuk $\rightarrow$ **.red[HUB SEBAB AKIBAT]** |
+|1. **.red[Tinggi badan]** <br> 2. **.green[Berat badan]** | Diduga tinggi badan dan berat badan memiliki hubungan | Dimulai dengan mengamati tinggi badan dahulu, disusul mengamati peubah yang dianggap relevan (berat badan), atau sebaliknya.| Pengamatan thdp kedua peubah dilakukan secara bersamaan. Sulit untuk mengatakan bahwa peru-bahan satu peubah disebabkan oleh perubahan peubah lainnya <br> $\rightarrow$ **.red[bukan HUB SEBAB AKIBAT]** Ingin diketahui kekuatan dan arah hubungannya|
 
 ]
 
@@ -94,8 +94,8 @@ xaringanExtra::use_search(show_icon = TRUE)
 
 | PEUBAH    | KASUS   | PENGUMPULAN DATA    | JENIS HUBUNGANNYA |
 |:--        |:--      | :--                 |:--                |
-|1. Banyaknya barang terjual/minggu <br> 2. Adanya hari libur/tidak <br> 3. Harga barang | Diduga banyaknya barang terjual/minggu dipengaruhi oleh berbagai peubah, misalnya harga barang, ada/ tidaknya hari libur dlm minggu tsb | Harga barang ditentukan lebih dahulu, faktor-faktor lain yg mempengaruhi banyaknya barang terjual dikendalikan sehingga pengaruhnya konstan, kemudian diamati banyaknya barang yg terjual pada minggu ada hari libur dan minggu tanpa hari libur | Perubahan banyaknya barang yg terjual dipengaruhi oleh perubahan harga dan ada/tidaknya hari libur <br> $\rightarrow$ Hub SEBAB AKIBAT |
-|1. Bobot badan <br> 2. Bobot jantung | Diduga bobot badan dan bobot jantung memiliki hubungan | Dimulai dengan mengamati bobot badan terlebih dahulu, segera disusul mengamati peubah yg dianggap relevan (dalam hal ini bobot jantung), atau sebaliknya. | Pengamatan thdp kedua peubah dilakukan secara bersamaan. Sulit untuk mengatakan bahwa perubahan satu peubah disebabkan oleh peubah lainnya. <br> $\rightarrow$ bukan SEBAB AKIBAT. Ingin diketahui model matematisnya (HUB KUANTITATIF)    |
+|1. Banyaknya barang terjual/minggu <br> 2. Adanya hari libur/tidak <br> 3. Harga barang | Diduga banyaknya barang terjual/minggu dipengaruhi oleh berbagai peubah, misalnya harga barang, ada/ tidaknya hari libur dlm minggu tsb | Harga barang ditentukan lebih dahulu, faktor-faktor lain yg mempengaruhi banyaknya barang terjual dikendalikan sehingga pengaruhnya konstan, kemudian diamati banyaknya barang yg terjual pada minggu ada hari libur dan minggu tanpa hari libur | Perubahan banyaknya barang yg terjual dipengaruhi oleh perubahan harga dan ada/tidaknya hari libur <br> $\rightarrow$ **.red[Hub SEBAB AKIBAT]** |
+|1. Bobot badan <br> 2. Bobot jantung | Diduga bobot badan dan bobot jantung memiliki hubungan | Dimulai dengan mengamati bobot badan terlebih dahulu, segera disusul mengamati peubah yg dianggap relevan (dalam hal ini bobot jantung), atau sebaliknya. | Pengamatan thdp kedua peubah dilakukan secara bersamaan. Sulit untuk mengatakan bahwa perubahan satu peubah disebabkan oleh peubah lainnya. <br> $\rightarrow$ **.red[bukan SEBAB AKIBAT]**. Ingin diketahui model matematisnya (HUB KUANTITATIF)    |
 
 ]
 
@@ -122,12 +122,12 @@ xaringanExtra::use_search(show_icon = TRUE)
 
 .pull-right[
 
-### Jenis/Tipe Hubungan
+### **Jenis/Tipe Hubungan**
 
-.green[**Relationship**] VS .red[**Causal Relationship**]
-- Tidak semua hubungan (relationship) berupa hubungan sebab-akibat
+*.green[**Relationship**]* VS *.red[**Causal Relationship**]*
+- Tidak semua hubungan (*relationship*) berupa hubungan sebab-akibat
 
-- Penentuan suatu hubungan bersifat sebabakibat memerlukan pendapat/pengetahuan
+- Penentuan suatu hubungan bersifat sebab akibat memerlukan pendapat/pengetahuan
 dari bidang ilmu terkait
 
 ]
@@ -149,13 +149,13 @@ dari bidang ilmu terkait
 
 1. ### Skala pengukuran data/variabel
 
-2. ###Jenis hubungan antar variabel
+2. ###Jenis hubungan antarvariabel
 
 ]
 
 .pull-right[
 
-.red[**Relationship**]
+*.red[**Relationship**]*
 
 |              | Numerik                    | Kategorik                      |
 | :-:          | :--:                       | :--:                           |
@@ -163,7 +163,7 @@ dari bidang ilmu terkait
 | Kategorik    | Tabel Ringkasan            | Spearman (ordinal), Chi Square |
 
 
-.red[**Causal relationship**]
+*.red[**Causal relationship**]*
 
 |                    | $X$ : Numerik      | $X$ : Kategorik  |
 | :-:                | :--:               | :--:             |
@@ -249,7 +249,7 @@ dari bidang ilmu terkait
 
 .pull-left[
 
-### Untuk menelaah keeratan hubungan linear antara dua peubah numerik (skala pengukuran interval dan rasio)
+### untuk menelaah keeratan hubungan linear antara dua peubah numerik (skala pengukuran interval dan rasio)
 
 ### $$r=\dfrac{\text{JK}_{XY}}{\sqrt{\text{JK}_{XX} \text{JK}_{YY}}}$$
 
@@ -283,7 +283,7 @@ Diketahui data contoh tinggi dan bobot badan
 
 | Tinggi (cm) | 120 | 100 | 140 | 110 | 120 | 90 |
 | :--    | :--: | :--: | :--: | :--: | :--: | :--:|
-| Bobot (kg)  | 36 | 34 | 46 | 38 | 40 | 30 |
+| **Bobot (kg)**  | **36** | **34** | **46** | **38** | **40** | **30** |
 
 Tentukan koefisien dan arah korelasi dari data contoh tersebut.
 
@@ -323,6 +323,48 @@ Arah korelasi dari data tersebut adalah ...
 
 ---
 
+**Korelasi Menggunakan R**
+
+.pull-left[
+
+Koefisien korelasi bisa dihitung menggunakan R tanpa menggunakan `package` tambahan. Fungsi yang digunakan adalah `cor()`. Misalkan akan dihitung koefisien korelasi antara **Tinggi** dan **Bobot**.
+
+| Tinggi (cm) | 120 | 100 | 140 | 110 | 120 | 90 |
+| :--    | :--: | :--: | :--: | :--: | :--: | :--:|
+| **Bobot (kg)**  | **36** | **34** | **46** | **38** | **40** | **30** |
+
+Data diatas harus terlebih dahulu diinputkan di dalam R. Berikut adalah sintaks yang digunakan untuk menginput data di atas. (R bisa diakses secara *online* di **https://colab.to/r**)
+
+```r
+tinggi <- c(120, 100, 140, 110, 120, 90)
+bobot <- c(36, 34, 46, 38, 40, 30)
+
+```
+Setelah data diinputkan, gunakan fungsi `cor()` untuk menghitung koefisien korelasi antara **Tinggi** dengan **Bobot**.
+
+
+]
+
+.pull-right[
+
+```{r eval=FALSE, include=TRUE}
+cor(tinggi, bobot)
+
+```
+Jika sintaks di atas dijalankan, maka akan diperoleh hasil seperti berikut.
+
+```{r echo=FALSE}
+tinggi <- c(120, 100, 140, 110, 120, 90)
+bobot <- c(36, 34, 46, 38, 40, 30)
+cor(tinggi, bobot)
+
+```
+Hasil yang diperoleh sama dengan hasil perhitungan manual.
+
+]
+
+---
+
 .pull.center[
 
 ## **Uji Hipotesis**
@@ -354,9 +396,9 @@ $$t_0=\dfrac{r\sqrt{n-2}}{\sqrt{1-r^2}}$$
 
 ### Titik Kritis
 
-.red[Uji dua arah] : $t_{\frac{\alpha}{2};(n-2)}$
+**.red[Uji dua arah]** : $t_{\frac{\alpha}{2};(n-2)}$
 
-.red[Uji satu arah] : $t_{\alpha;(n-2)}$
+**.red[Uji satu arah]** : $t_{\alpha;(n-2)}$
 
 ]
 
@@ -378,22 +420,22 @@ Tolak $H_0$ : Cukup bukti untuk menyatakan bahwa ada korelasi antara $X$ dengan 
 
 .pull-right[
 
-<br><br><br>
-**Latihan 1**
+<!-- <br><br><br> -->
+<!-- **Latihan 1** -->
 
-Dari data pada contoh di slide 12, ujilah hipotesis apakah terdapat korelasi yang signifikan antara tinggi dengan bobot badan pada $\alpha=5\%$
+<!-- Dari data pada contoh di slide 12, ujilah hipotesis apakah terdapat korelasi yang signifikan antara tinggi dengan bobot badan pada $\alpha=5\%$ -->
 
-___
+<!-- ___ -->
 
-**Latihan 2**
+<!-- **Latihan 2** -->
 
-Seorang dosen berpendapat bahwa ada hubungan yang positif antara IQ mahasiswa dengan hasil UAS Statistika. Untuk menguji pendapatnya, 6 orang mahasiswa dipilih secara acak dan diperoleh data berikut.
+<!-- Seorang dosen berpendapat bahwa ada hubungan yang positif antara IQ mahasiswa dengan hasil UAS Statistika. Untuk menguji pendapatnya, 6 orang mahasiswa dipilih secara acak dan diperoleh data berikut. -->
 
-| IQ | 110 | 120 | 125 | 130 | 130 | 140 |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| UAS | 90 | 80 | 90 | 95 | 85 | 95 |
+<!-- | IQ | 110 | 120 | 125 | 130 | 130 | 140 | -->
+<!-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | -->
+<!-- | UAS | 90 | 80 | 90 | 95 | 85 | 95 | -->
 
-Ujilah pendapat dosen tersebut dengan taraf nyata $5\%$.
+<!-- Ujilah pendapat dosen tersebut dengan taraf nyata $5\%$. -->
 
 ]
 ---
@@ -402,9 +444,20 @@ Ujilah pendapat dosen tersebut dengan taraf nyata $5\%$.
 
 **Latihan 1**
 
-Dari data pada contoh di atas, ujilah hipotesis apakah terdapat korelasi yang signifikan antara tinggi dengan bobot badan pada $\alpha=5\%$
+Dari data pada contoh sebelumnya, 
 
-___
+| Tinggi (cm) | 120 | 100 | 140 | 110 | 120 | 90 |
+| :--    | :--: | :--: | :--: | :--: | :--: | :--:|
+| **Bobot (kg)**  | **36** | **34** | **46** | **38** | **40** | **30** |
+
+ujilah hipotesis apakah terdapat korelasi yang signifikan antara tinggi dengan bobot badan pada $\alpha=5\%$
+
+
+]
+
+---
+
+.pull-left[
 
 **Latihan 2**
 
@@ -418,9 +471,107 @@ Ujilah pendapat dosen tersebut dengan taraf nyata $5\%$.
 
 ]
 
+---
+
+.pull-left[
+
+### Uji Hipotesis untuk Korelasi Menggunakan R
+
+Berikut adalah data tinggi badan dan bobot badan dari 6 orang. 
+
+| Tinggi (cm) | 120 | 100 | 140 | 110 | 120 | 90 |
+| :--    | :--: | :--: | :--: | :--: | :--: | :--:|
+| **Bobot (kg)**  | **36** | **34** | **46** | **38** | **40** | **30** |
+
+Ujilah hipotesis apakah terdapat korelasi yang signifikan antara tinggi dengan bobot badan pada $\alpha=5\%$
+
+___
+
+Ketikkan sintaks berikut untuk menginput data di R melalui **https://colab.to/r**
+
+
+```{r}
+tinggi <- c(120, 100, 140, 110, 120, 90)
+bobot <- c(36, 34, 46, 38, 40, 30)
+```
+
+]
+
+.pull-right[
+<br><br><br><br>
+Uji hipotesis untuk korelasi di R bisa menggunakan fungsi **`cor.test()`**. Berikut adalah sintaksnya.
+
+```{r, eval=FALSE}
+cor.test(tinggi, bobot,
+         alternative = "two.sided",
+         conf.level = 0.95)
+
+```
+
+Jika sintaks di atas dijalankan, maka akan diperoleh hasil seperti berikut.
+
+```{r, echo=FALSE}
+tinggi <- c(120, 100, 140, 110, 120, 90)
+bobot <- c(36, 34, 46, 38, 40, 30)
+cor.test(tinggi, bobot, alternative = "two.sided", conf.level = 0.95)
+
+```
+
+]
+
+---
+
+.pull-left[
+
+### Uji Hipotesis untuk Korelasi Menggunakan R
+
+Seorang dosen berpendapat bahwa ada hubungan yang positif antara IQ mahasiswa dengan hasil UAS Statistika. Untuk menguji pendapatnya, 6 orang mahasiswa dipilih secara acak dan diperoleh data berikut.
+
+| IQ | 110 | 120 | 125 | 130 | 130 | 140 |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| UAS | 90 | 80 | 90 | 95 | 85 | 95 |
+
+Ujilah pendapat dosen tersebut dengan taraf nyata $5\%$.
+
+___
+
+Input data:
+
+```{r}
+IQ <- c(110, 120, 125, 130, 130, 140)
+UAS <- c(90, 80, 90, 95, 85, 95)
+
+```
+
+]
+
 .pull-right[
 
-**Latihan 3**
+<br><br><br><br>
+Jalankan sintaks berikut.
+
+```{r, eval = FALSE}
+cor.test(IQ, UAS, alternative = "greater",
+         conf.level = 0.95)
+```
+
+Berikut adalah keluaran yang dihasilkan.
+
+```{r, echo=FALSE}
+IQ <- c(110, 120, 125, 130, 130, 140)
+UAS <- c(90, 80, 90, 95, 85, 95)
+cor.test(IQ, UAS, alternative = "greater",
+         conf.level = 0.95)
+
+```
+
+
+]
+
+
+---
+
+.pull-left[
 
 Diketahui tabel berikut.
 
@@ -438,7 +589,59 @@ Diketahui tabel berikut.
 | 1985 | 21.1 | 92.8 | 19.3 |
 | 1986 | 21.9 | 95.3 | 19.6 |
 
-Tentukan pasangan peubah `Ekspor`, `PDB`, dan `Investasi` yang memiliki korelasi paling kuat.
+Tentukan pasangan peubah `Ekspor`, `PDB`, dan `Investasi` yang memiliki korelasi paling kuat **menggunakan R**.
+
+]
+
+.pull-right[
+
+Input (simpan) dahulu data `Ekspor`, `PDB`, <br>
+dan `Investasi` sebagai sebuah dataframe <br>
+dengan nama `data` menggunakan sintaks <br>
+berikut.
+
+```{r}
+data <- data.frame(
+  Ekspor = c(7.4, 7.1, 8.5, 10.8, 11.6, 15.6, 24, 25.2, 22.3, 21.1, 21.9),
+  PDB = c(15.5, 19, 22.8, 32, 45.4, 54, 59.6, 61.4, 86.1, 92.8, 95.3),
+  Investasi = c(2.6, 3.2, 3.7, 4.7, 6.7, 9.5, 11.5, 13.5, 19, 19.3, 19.6)
+)
+```
+Kemudian jalankan sintaks berikut
+
+```{r, eval=FALSE}
+cor(data)
+
+```
+Sehingga akan didapat hasil berikut
+
+```{r, echo=F}
+cor(data)
+
+```
+]
+
+---
+
+.pull-left[
+
+**Latihan 3**
+
+Berikut adalah hasil perhitungan uji hipotesis tentang korelasi antara dosis pupuk dengan hasil panen.
+
+```{r, echo=FALSE}
+pupuk <- rnorm(100, mean = 10, sd = 3)
+panen <- rnorm(100, mean = 100, sd = 20)
+cor.test(pupuk, panen, alternative = "two.sided", conf.level = 0.9)
+```
+
+Tentukanlah:
+
+1. $H_0$ dan $H_1$ yang digunakan
+1. Tingkat signifikansi yang digunakan
+1. Keputusan Uji Hipotesis ( $H_0$ ditolak atau tidak ditolak)
+1. Kesimpulan yang dihasilkan
+1. Selang kepercayaan $90\%$ untuk korelasi $(\rho)$
 
 ]
 
