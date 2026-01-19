@@ -333,7 +333,7 @@ Koefisien korelasi bisa dihitung menggunakan R tanpa menggunakan `package` tamba
 | :--    | :--: | :--: | :--: | :--: | :--: | :--:|
 | **Bobot (kg)**  | **36** | **34** | **46** | **38** | **40** | **30** |
 
-Data diatas harus terlebih dahulu diinputkan di dalam R. Berikut adalah sintaks yang digunakan untuk menginput data di atas. (R bisa diakses secara *online* di **https://colab.to/r**)
+Data diatas harus terlebih dahulu diinputkan di dalam R. Berikut adalah sintaks yang digunakan untuk menginput data di atas. (R bisa diakses secara *online* [**di sini**](https://colab.research.google.com/#create=true&language=r))
 
 ```r
 tinggi <- c(120, 100, 140, 110, 120, 90)
