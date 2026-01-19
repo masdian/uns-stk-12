@@ -487,7 +487,7 @@ Ujilah hipotesis apakah terdapat korelasi yang signifikan antara tinggi dengan b
 
 ___
 
-Ketikkan sintaks berikut untuk menginput data di R melalui **https://colab.to/r**
+Ketikkan sintaks berikut untuk menginput data di R melalui [**di sini**](https://colab.research.google.com/#create=true&language=r)
 
 
 ```{r}
